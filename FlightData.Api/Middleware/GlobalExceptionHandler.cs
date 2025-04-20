@@ -1,9 +1,5 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System.Net;
-using System.Text.Json;
 
 
 namespace FlightData.Api.Middleware

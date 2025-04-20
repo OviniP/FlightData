@@ -1,6 +1,4 @@
 using FlightData.Services;
-using NUnit.Framework;
-using System.Runtime.CompilerServices;
 
 namespace FlightData.Test
 {

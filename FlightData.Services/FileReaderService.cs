@@ -1,10 +1,7 @@
-﻿using CsvHelper.Configuration;
+﻿using System.Globalization;
 using CsvHelper;
+using CsvHelper.Configuration;
 using FlightData.Entities;
-using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
-using System.Threading.Tasks;
 using FlightData.Services.Contracts;
 
 namespace FlightData.Services

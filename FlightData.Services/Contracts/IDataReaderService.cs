@@ -1,6 +1,4 @@
 ﻿using FlightData.Entities;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace FlightData.Services.Contracts
 {

@@ -1,7 +1,5 @@
 ﻿using FlightData.Entities;
 using FlightData.Services.Contracts;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace FlightData.Services
 {
