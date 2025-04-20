@@ -1,0 +1,887 @@
+2025-04-20 12:58:22.625 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-20 12:58:22.971 +03:00 [DBG] Hosting starting
+2025-04-20 12:58:23.590 +03:00 [INF] Now listening on: http://localhost:5043
+2025-04-20 12:58:23.590 +03:00 [DBG] Loaded hosting startup assembly FlightData.Api
+2025-04-20 12:58:23.591 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-20 12:58:23.591 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-20 12:58:23.592 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-20 12:58:23.772 +03:00 [DBG] Connection id "0HNBVU7HOH18R" accepted.
+2025-04-20 12:58:23.772 +03:00 [DBG] Connection id "0HNBVU7HOH18Q" accepted.
+2025-04-20 12:58:23.781 +03:00 [DBG] Connection id "0HNBVU7HOH18R" started.
+2025-04-20 12:58:23.783 +03:00 [DBG] Connection id "0HNBVU7HOH18Q" started.
+2025-04-20 12:58:23.786 +03:00 [DBG] Connection id "0HNBVU7HOH18Q" received FIN.
+2025-04-20 12:58:23.904 +03:00 [DBG] Connection id "0HNBVU7HOH18R" received FIN.
+2025-04-20 12:58:23.933 +03:00 [DBG] Connection id "0HNBVU7HOH18R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 12:58:23.933 +03:00 [DBG] Connection id "0HNBVU7HOH18Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 12:58:23.938 +03:00 [DBG] Connection id "0HNBVU7HOH18R" disconnecting.
+2025-04-20 12:58:23.938 +03:00 [DBG] Connection id "0HNBVU7HOH18Q" disconnecting.
+2025-04-20 12:58:23.952 +03:00 [DBG] Connection id "0HNBVU7HOH18R" stopped.
+2025-04-20 12:58:23.952 +03:00 [DBG] Connection id "0HNBVU7HOH18Q" stopped.
+2025-04-20 12:58:24.030 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-20 12:58:24.031 +03:00 [INF] Hosting environment: Development
+2025-04-20 12:58:24.031 +03:00 [INF] Content root path: E:\Job Search\Job applications\QOCO\Assignment\FlightData.Api\FlightData.Api
+2025-04-20 12:58:24.031 +03:00 [DBG] Hosting started
+2025-04-20 12:58:27.437 +03:00 [DBG] Connection id "0HNBVU7HOH18S" accepted.
+2025-04-20 12:58:27.440 +03:00 [DBG] Connection id "0HNBVU7HOH18S" started.
+2025-04-20 12:58:27.454 +03:00 [DBG] Connection id "0HNBVU7HOH18T" accepted.
+2025-04-20 12:58:27.458 +03:00 [DBG] Connection id "0HNBVU7HOH18T" started.
+2025-04-20 12:58:27.896 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-04-20 12:58:28.379 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-20 12:58:28.435 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-20 12:58:28.437 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 12:58:28.651 +03:00 [DBG] Connection id "0HNBVU7HOH18S" received FIN.
+2025-04-20 12:58:28.665 +03:00 [DBG] Connection id "0HNBVU7HOH18S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 12:58:28.666 +03:00 [DBG] Connection id "0HNBVU7HOH18S" disconnecting.
+2025-04-20 12:58:28.844 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-20 12:58:28.848 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-20 12:58:28.883 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 425.5080 ms
+2025-04-20 12:58:28.888 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-20 12:58:28.890 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-20 12:58:28.897 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 1055.2167ms
+2025-04-20 12:58:28.905 +03:00 [DBG] Connection id "0HNBVU7HOH18S" stopped.
+2025-04-20 12:58:39.865 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-20 12:58:40.058 +03:00 [DBG] Hosting starting
+2025-04-20 12:58:40.675 +03:00 [DBG] Connection id "0HNBVU7MPND49" received FIN.
+2025-04-20 12:58:40.693 +03:00 [DBG] Connection id "0HNBVU7MPND49" accepted.
+2025-04-20 12:58:40.696 +03:00 [DBG] Connection id "0HNBVU7MPND49" started.
+2025-04-20 12:58:40.712 +03:00 [INF] Now listening on: http://localhost:5043
+2025-04-20 12:58:40.713 +03:00 [DBG] Loaded hosting startup assembly FlightData.Api
+2025-04-20 12:58:40.714 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-20 12:58:40.714 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-20 12:58:40.715 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-20 12:58:40.736 +03:00 [DBG] Connection id "0HNBVU7MPND49" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 12:58:40.751 +03:00 [DBG] Connection id "0HNBVU7MPND49" disconnecting.
+2025-04-20 12:58:40.773 +03:00 [DBG] Connection id "0HNBVU7MPND49" stopped.
+2025-04-20 12:58:41.161 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-20 12:58:41.162 +03:00 [INF] Hosting environment: Development
+2025-04-20 12:58:41.163 +03:00 [INF] Content root path: E:\Job Search\Job applications\QOCO\Assignment\FlightData.Api\FlightData.Api
+2025-04-20 12:58:41.163 +03:00 [DBG] Hosting started
+2025-04-20 12:58:41.390 +03:00 [DBG] Connection id "0HNBVU7MPND4A" accepted.
+2025-04-20 12:58:41.397 +03:00 [DBG] Connection id "0HNBVU7MPND4A" started.
+2025-04-20 12:58:41.404 +03:00 [DBG] Connection id "0HNBVU7MPND4B" accepted.
+2025-04-20 12:58:41.453 +03:00 [DBG] Connection id "0HNBVU7MPND4B" started.
+2025-04-20 12:58:41.603 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-04-20 12:58:41.931 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-20 12:58:41.980 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-20 12:58:41.981 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 12:58:42.222 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-20 12:58:42.225 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-20 12:58:42.299 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 296.2578 ms
+2025-04-20 12:58:42.304 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-20 12:58:42.305 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-20 12:58:42.306 +03:00 [DBG] Connection id "0HNBVU7MPND4A" completed keep alive response.
+2025-04-20 12:58:42.317 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 731.1368ms
+2025-04-20 12:58:42.345 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2025-04-20 12:58:42.346 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-04-20 12:58:42.346 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 12:58:42.353 +03:00 [INF] HTTP GET /swagger/index.js responded 200 in 5.2531 ms
+2025-04-20 12:58:42.354 +03:00 [DBG] Connection id "0HNBVU7MPND4A" completed keep alive response.
+2025-04-20 12:58:42.355 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 13.57ms
+2025-04-20 12:58:42.451 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_vs/browserLink - null null
+2025-04-20 12:58:42.619 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-20 12:58:42.638 +03:00 [DBG] Connection id "0HNBVU7MPND4B" completed keep alive response.
+2025-04-20 12:58:42.638 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 19.9475ms
+2025-04-20 12:58:42.785 +03:00 [DBG] Connection id "0HNBVU7MPND4A" completed keep alive response.
+2025-04-20 12:58:42.785 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_vs/browserLink - 200 null text/javascript; charset=UTF-8 333.7844ms
+2025-04-20 12:58:43.054 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-04-20 12:58:43.055 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-20 12:58:43.055 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 12:58:43.369 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 309.1729 ms
+2025-04-20 12:58:43.369 +03:00 [DBG] Connection id "0HNBVU7MPND4A" completed keep alive response.
+2025-04-20 12:58:43.369 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 315.2256ms
+2025-04-20 12:58:46.079 +03:00 [DBG] Connection id "0HNBVU7MPND4B" received FIN.
+2025-04-20 12:58:46.080 +03:00 [DBG] Connection id "0HNBVU7MPND4A" received FIN.
+2025-04-20 12:58:46.081 +03:00 [DBG] Connection id "0HNBVU7MPND4B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 12:58:46.082 +03:00 [DBG] Connection id "0HNBVU7MPND4A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 12:58:46.083 +03:00 [DBG] Connection id "0HNBVU7MPND4A" disconnecting.
+2025-04-20 12:58:46.084 +03:00 [DBG] Connection id "0HNBVU7MPND4B" disconnecting.
+2025-04-20 12:58:46.098 +03:00 [DBG] Connection id "0HNBVU7MPND4B" stopped.
+2025-04-20 12:58:46.098 +03:00 [DBG] Connection id "0HNBVU7MPND4A" stopped.
+2025-04-20 12:58:51.608 +03:00 [DBG] Connection id "0HNBVU7MPND4C" accepted.
+2025-04-20 12:58:51.608 +03:00 [DBG] Connection id "0HNBVU7MPND4C" started.
+2025-04-20 12:58:51.609 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/Get - null null
+2025-04-20 12:58:51.625 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/Get'
+2025-04-20 12:58:51.639 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.Flights.Get (FlightData.Api)' with route pattern 'api/Flights/Get' is valid for the request path '/api/Flights/Get'
+2025-04-20 12:58:51.640 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.Flights.Get (FlightData.Api)'
+2025-04-20 12:58:51.645 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 12:58:51.647 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.Flights.Get (FlightData.Api)'
+2025-04-20 12:58:51.705 +03:00 [INF] Route matched with {action = "Get", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]] Get() on controller FlightData.Api.Controllers.Flights (FlightData.Api).
+2025-04-20 12:58:51.708 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 12:58:51.708 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 12:58:51.709 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 12:58:51.709 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 12:58:51.709 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 12:58:51.714 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.Flights (FlightData.Api)
+2025-04-20 12:58:53.606 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.Flights (FlightData.Api)
+2025-04-20 12:58:53.617 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 12:58:53.640 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 12:58:53.642 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 12:58:53.643 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 12:58:53.643 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 12:58:53.644 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 12:58:53.645 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 12:58:53.765 +03:00 [INF] Executed action FlightData.Api.Controllers.Flights.Get (FlightData.Api) in 2044.7863ms
+2025-04-20 12:58:53.766 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.Flights.Get (FlightData.Api)'
+2025-04-20 12:58:53.766 +03:00 [INF] HTTP GET /api/Flights/Get responded 200 in 2122.9435 ms
+2025-04-20 12:58:53.767 +03:00 [DBG] Connection id "0HNBVU7MPND4C" completed keep alive response.
+2025-04-20 12:58:53.767 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/Get - 200 null application/json; charset=utf-8 2158.205ms
+2025-04-20 12:58:56.098 +03:00 [DBG] Connection id "0HNBVU7MPND4C" received FIN.
+2025-04-20 12:58:56.098 +03:00 [DBG] Connection id "0HNBVU7MPND4C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 12:58:56.099 +03:00 [DBG] Connection id "0HNBVU7MPND4C" disconnecting.
+2025-04-20 12:58:56.099 +03:00 [DBG] Connection id "0HNBVU7MPND4C" stopped.
+2025-04-20 12:59:40.035 +03:00 [DBG] Connection id "0HNBVU7MPND4D" accepted.
+2025-04-20 12:59:40.036 +03:00 [DBG] Connection id "0HNBVU7MPND4D" started.
+2025-04-20 12:59:40.040 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - null null
+2025-04-20 12:59:40.042 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 12:59:40.043 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.Flights.GetInconsistencies (FlightData.Api)' with route pattern 'api/Flights/GetInconsistencies' is valid for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 12:59:40.043 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.Flights.GetInconsistencies (FlightData.Api)'
+2025-04-20 12:59:40.044 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 12:59:40.044 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.Flights.GetInconsistencies (FlightData.Api)'
+2025-04-20 12:59:40.051 +03:00 [INF] Route matched with {action = "GetInconsistencies", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]] GetInconsistencies() on controller FlightData.Api.Controllers.Flights (FlightData.Api).
+2025-04-20 12:59:40.051 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 12:59:40.051 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 12:59:40.051 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 12:59:40.051 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 12:59:40.051 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 12:59:40.051 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.Flights (FlightData.Api)
+2025-04-20 12:59:40.052 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.Flights (FlightData.Api)
+2025-04-20 12:59:40.068 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 12:59:40.068 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 12:59:40.068 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 12:59:40.068 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 12:59:40.069 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 12:59:40.069 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 12:59:40.069 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 12:59:40.070 +03:00 [INF] Executed action FlightData.Api.Controllers.Flights.GetInconsistencies (FlightData.Api) in 18.8334ms
+2025-04-20 12:59:40.071 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.Flights.GetInconsistencies (FlightData.Api)'
+2025-04-20 12:59:40.071 +03:00 [INF] HTTP GET /api/Flights/GetInconsistencies responded 200 in 28.0430 ms
+2025-04-20 12:59:40.072 +03:00 [DBG] Connection id "0HNBVU7MPND4D" completed keep alive response.
+2025-04-20 12:59:40.073 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - 200 null application/json; charset=utf-8 33.1882ms
+2025-04-20 12:59:43.689 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - null null
+2025-04-20 12:59:43.689 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 12:59:43.689 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.Flights.GetInconsistencies (FlightData.Api)' with route pattern 'api/Flights/GetInconsistencies' is valid for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 12:59:43.689 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.Flights.GetInconsistencies (FlightData.Api)'
+2025-04-20 12:59:43.690 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 12:59:43.690 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.Flights.GetInconsistencies (FlightData.Api)'
+2025-04-20 12:59:43.690 +03:00 [INF] Route matched with {action = "GetInconsistencies", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]] GetInconsistencies() on controller FlightData.Api.Controllers.Flights (FlightData.Api).
+2025-04-20 12:59:43.690 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 12:59:43.690 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 12:59:43.691 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 12:59:43.691 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 12:59:43.691 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 12:59:43.691 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.Flights (FlightData.Api)
+2025-04-20 12:59:43.692 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.Flights (FlightData.Api)
+2025-04-20 12:59:43.702 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 12:59:43.702 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 12:59:43.702 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 12:59:43.702 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 12:59:43.702 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 12:59:43.703 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 12:59:43.703 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 12:59:43.703 +03:00 [INF] Executed action FlightData.Api.Controllers.Flights.GetInconsistencies (FlightData.Api) in 12.5147ms
+2025-04-20 12:59:43.703 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.Flights.GetInconsistencies (FlightData.Api)'
+2025-04-20 12:59:43.703 +03:00 [INF] HTTP GET /api/Flights/GetInconsistencies responded 200 in 13.8364 ms
+2025-04-20 12:59:43.704 +03:00 [DBG] Connection id "0HNBVU7MPND4D" completed keep alive response.
+2025-04-20 12:59:43.704 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - 200 null application/json; charset=utf-8 14.9738ms
+2025-04-20 12:59:46.156 +03:00 [DBG] Connection id "0HNBVU7MPND4D" received FIN.
+2025-04-20 12:59:46.156 +03:00 [DBG] Connection id "0HNBVU7MPND4D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 12:59:46.157 +03:00 [DBG] Connection id "0HNBVU7MPND4D" disconnecting.
+2025-04-20 12:59:46.157 +03:00 [DBG] Connection id "0HNBVU7MPND4D" stopped.
+2025-04-20 14:36:39.060 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-20 14:36:39.226 +03:00 [DBG] Hosting starting
+2025-04-20 14:36:39.512 +03:00 [INF] Now listening on: http://localhost:5043
+2025-04-20 14:36:39.512 +03:00 [DBG] Loaded hosting startup assembly FlightData.Api
+2025-04-20 14:36:39.513 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-20 14:36:39.513 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-20 14:36:39.513 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-20 14:36:39.518 +03:00 [DBG] Connection id "0HNBVVUEQOEI2" received FIN.
+2025-04-20 14:36:39.525 +03:00 [DBG] Connection id "0HNBVVUEQOEI2" accepted.
+2025-04-20 14:36:39.526 +03:00 [DBG] Connection id "0HNBVVUEQOEI2" started.
+2025-04-20 14:36:39.535 +03:00 [DBG] Connection id "0HNBVVUEQOEI2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 14:36:39.537 +03:00 [DBG] Connection id "0HNBVVUEQOEI2" disconnecting.
+2025-04-20 14:36:39.544 +03:00 [DBG] Connection id "0HNBVVUEQOEI2" stopped.
+2025-04-20 14:36:39.728 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-20 14:36:39.728 +03:00 [INF] Hosting environment: Development
+2025-04-20 14:36:39.728 +03:00 [INF] Content root path: E:\Job Search\Job applications\QOCO\Assignment\FlightData.Api\FlightData.Api
+2025-04-20 14:36:39.729 +03:00 [DBG] Hosting started
+2025-04-20 14:36:40.080 +03:00 [DBG] Connection id "0HNBVVUEQOEI3" accepted.
+2025-04-20 14:36:40.081 +03:00 [DBG] Connection id "0HNBVVUEQOEI3" started.
+2025-04-20 14:36:40.083 +03:00 [DBG] Connection id "0HNBVVUEQOEI4" accepted.
+2025-04-20 14:36:40.083 +03:00 [DBG] Connection id "0HNBVVUEQOEI4" started.
+2025-04-20 14:36:40.252 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-04-20 14:36:41.565 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-20 14:36:41.624 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-20 14:36:41.624 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 14:36:42.097 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-20 14:36:42.100 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-20 14:36:42.246 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 606.9708 ms
+2025-04-20 14:36:42.249 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-20 14:36:42.252 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-20 14:36:42.254 +03:00 [DBG] Connection id "0HNBVVUEQOEI3" completed keep alive response.
+2025-04-20 14:36:42.264 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 2027.9929ms
+2025-04-20 14:36:42.328 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-20 14:36:42.342 +03:00 [DBG] Connection id "0HNBVVUEQOEI3" completed keep alive response.
+2025-04-20 14:36:42.343 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 15.4253ms
+2025-04-20 14:36:42.344 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2025-04-20 14:36:42.344 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-04-20 14:36:42.344 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 14:36:42.349 +03:00 [INF] HTTP GET /swagger/index.js responded 200 in 3.3642 ms
+2025-04-20 14:36:42.349 +03:00 [DBG] Connection id "0HNBVVUEQOEI4" completed keep alive response.
+2025-04-20 14:36:42.394 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 49.7993ms
+2025-04-20 14:36:42.475 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_vs/browserLink - null null
+2025-04-20 14:36:42.789 +03:00 [DBG] Connection id "0HNBVVUEQOEI3" completed keep alive response.
+2025-04-20 14:36:42.789 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_vs/browserLink - 200 null text/javascript; charset=UTF-8 314.9573ms
+2025-04-20 14:36:43.098 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-04-20 14:36:43.098 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-20 14:36:43.099 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 14:36:43.441 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 337.1977 ms
+2025-04-20 14:36:43.441 +03:00 [DBG] Connection id "0HNBVVUEQOEI3" completed keep alive response.
+2025-04-20 14:36:43.441 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 343.5007ms
+2025-04-20 14:36:43.849 +03:00 [DBG] Connection id "0HNBVVUEQOEI4" received FIN.
+2025-04-20 14:36:43.854 +03:00 [DBG] Connection id "0HNBVVUEQOEI3" received FIN.
+2025-04-20 14:36:43.856 +03:00 [DBG] Connection id "0HNBVVUEQOEI4" disconnecting.
+2025-04-20 14:36:43.859 +03:00 [DBG] Connection id "0HNBVVUEQOEI4" stopped.
+2025-04-20 14:36:43.871 +03:00 [DBG] Connection id "0HNBVVUEQOEI3" disconnecting.
+2025-04-20 14:36:43.873 +03:00 [DBG] Connection id "0HNBVVUEQOEI3" stopped.
+2025-04-20 14:36:43.890 +03:00 [DBG] Connection id "0HNBVVUEQOEI4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 14:36:43.893 +03:00 [DBG] Connection id "0HNBVVUEQOEI3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 14:36:49.355 +03:00 [DBG] Connection id "0HNBVVUEQOEI5" accepted.
+2025-04-20 14:36:49.358 +03:00 [DBG] Connection id "0HNBVVUEQOEI5" started.
+2025-04-20 14:36:49.359 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/Get - null null
+2025-04-20 14:36:49.387 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/Get'
+2025-04-20 14:36:49.394 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)' with route pattern 'api/Flights/Get' is valid for the request path '/api/Flights/Get'
+2025-04-20 14:36:49.396 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 14:36:49.404 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 14:36:49.406 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 14:36:49.554 +03:00 [INF] Route matched with {action = "Get", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]] Get() on controller FlightData.Api.Controllers.FlightsController (FlightData.Api).
+2025-04-20 14:36:49.559 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 14:36:49.560 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 14:36:49.560 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 14:36:49.560 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 14:36:49.561 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 14:36:49.576 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 14:36:51.056 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 14:36:51.067 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 14:36:51.071 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 14:36:51.073 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 14:36:51.074 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 14:36:51.074 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 14:36:51.075 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 14:36:51.076 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 14:36:51.191 +03:00 [INF] Executed action FlightData.Api.Controllers.FlightsController.Get (FlightData.Api) in 1623.7711ms
+2025-04-20 14:36:51.192 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 14:36:51.192 +03:00 [INF] HTTP GET /api/Flights/Get responded 200 in 1792.1667 ms
+2025-04-20 14:36:51.192 +03:00 [DBG] Connection id "0HNBVVUEQOEI5" completed keep alive response.
+2025-04-20 14:36:51.192 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/Get - 200 null application/json; charset=utf-8 1833.2142ms
+2025-04-20 14:36:55.132 +03:00 [DBG] Connection id "0HNBVVUEQOEI5" received FIN.
+2025-04-20 14:36:55.132 +03:00 [DBG] Connection id "0HNBVVUEQOEI5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 14:36:55.133 +03:00 [DBG] Connection id "0HNBVVUEQOEI5" disconnecting.
+2025-04-20 14:36:55.145 +03:00 [DBG] Connection id "0HNBVVUEQOEI5" stopped.
+2025-04-20 16:12:12.642 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-20 16:12:12.867 +03:00 [DBG] Hosting starting
+2025-04-20 16:12:13.152 +03:00 [INF] Now listening on: http://localhost:5043
+2025-04-20 16:12:13.152 +03:00 [DBG] Loaded hosting startup assembly FlightData.Api
+2025-04-20 16:12:13.152 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-20 16:12:13.152 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-20 16:12:13.152 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-20 16:12:13.335 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-20 16:12:13.336 +03:00 [INF] Hosting environment: Development
+2025-04-20 16:12:13.336 +03:00 [INF] Content root path: E:\Job Search\Job applications\QOCO\Assignment\FlightData.Api\FlightData.Api
+2025-04-20 16:12:13.336 +03:00 [DBG] Hosting started
+2025-04-20 16:12:13.614 +03:00 [DBG] Connection id "0HNC01JRNBKDH" received FIN.
+2025-04-20 16:12:13.614 +03:00 [DBG] Connection id "0HNC01JRNBKDG" received FIN.
+2025-04-20 16:12:13.615 +03:00 [DBG] Connection id "0HNC01JRNBKDG" accepted.
+2025-04-20 16:12:13.615 +03:00 [DBG] Connection id "0HNC01JRNBKDH" accepted.
+2025-04-20 16:12:13.617 +03:00 [DBG] Connection id "0HNC01JRNBKDG" started.
+2025-04-20 16:12:13.618 +03:00 [DBG] Connection id "0HNC01JRNBKDH" started.
+2025-04-20 16:12:13.640 +03:00 [DBG] Connection id "0HNC01JRNBKDG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:12:13.640 +03:00 [DBG] Connection id "0HNC01JRNBKDH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:12:13.642 +03:00 [DBG] Connection id "0HNC01JRNBKDH" disconnecting.
+2025-04-20 16:12:13.642 +03:00 [DBG] Connection id "0HNC01JRNBKDG" disconnecting.
+2025-04-20 16:12:13.650 +03:00 [DBG] Connection id "0HNC01JRNBKDG" stopped.
+2025-04-20 16:12:13.650 +03:00 [DBG] Connection id "0HNC01JRNBKDH" stopped.
+2025-04-20 16:12:14.451 +03:00 [DBG] Connection id "0HNC01JRNBKDI" accepted.
+2025-04-20 16:12:14.452 +03:00 [DBG] Connection id "0HNC01JRNBKDI" started.
+2025-04-20 16:12:14.455 +03:00 [DBG] Connection id "0HNC01JRNBKDJ" accepted.
+2025-04-20 16:12:14.455 +03:00 [DBG] Connection id "0HNC01JRNBKDJ" started.
+2025-04-20 16:12:14.596 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-04-20 16:12:14.902 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-20 16:12:14.936 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-20 16:12:14.937 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:12:15.116 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-20 16:12:15.118 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-20 16:12:15.187 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 232.7732 ms
+2025-04-20 16:12:15.197 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-20 16:12:15.200 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-20 16:12:15.202 +03:00 [DBG] Connection id "0HNC01JRNBKDI" completed keep alive response.
+2025-04-20 16:12:15.211 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 631.5279ms
+2025-04-20 16:12:15.245 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2025-04-20 16:12:15.245 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-04-20 16:12:15.245 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:12:15.251 +03:00 [INF] HTTP GET /swagger/index.js responded 200 in 3.7426 ms
+2025-04-20 16:12:15.251 +03:00 [DBG] Connection id "0HNC01JRNBKDI" completed keep alive response.
+2025-04-20 16:12:15.252 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 7.0157ms
+2025-04-20 16:12:15.265 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-20 16:12:15.270 +03:00 [DBG] Connection id "0HNC01JRNBKDJ" completed keep alive response.
+2025-04-20 16:12:15.271 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.2772ms
+2025-04-20 16:12:15.323 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_vs/browserLink - null null
+2025-04-20 16:12:15.535 +03:00 [DBG] Connection id "0HNC01JRNBKDJ" completed keep alive response.
+2025-04-20 16:12:15.535 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_vs/browserLink - 200 null text/javascript; charset=UTF-8 212.1009ms
+2025-04-20 16:12:15.854 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-04-20 16:12:15.855 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-20 16:12:15.855 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:12:16.278 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 421.6981 ms
+2025-04-20 16:12:16.278 +03:00 [DBG] Connection id "0HNC01JRNBKDJ" completed keep alive response.
+2025-04-20 16:12:16.279 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 424.7026ms
+2025-04-20 16:12:18.726 +03:00 [DBG] Connection id "0HNC01JRNBKDI" received FIN.
+2025-04-20 16:12:18.727 +03:00 [DBG] Connection id "0HNC01JRNBKDJ" received FIN.
+2025-04-20 16:12:18.727 +03:00 [DBG] Connection id "0HNC01JRNBKDJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:12:18.727 +03:00 [DBG] Connection id "0HNC01JRNBKDI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:12:18.727 +03:00 [DBG] Connection id "0HNC01JRNBKDJ" disconnecting.
+2025-04-20 16:12:18.727 +03:00 [DBG] Connection id "0HNC01JRNBKDI" disconnecting.
+2025-04-20 16:12:18.729 +03:00 [DBG] Connection id "0HNC01JRNBKDI" stopped.
+2025-04-20 16:12:18.729 +03:00 [DBG] Connection id "0HNC01JRNBKDJ" stopped.
+2025-04-20 16:12:22.477 +03:00 [DBG] Connection id "0HNC01JRNBKDK" accepted.
+2025-04-20 16:12:22.477 +03:00 [DBG] Connection id "0HNC01JRNBKDK" started.
+2025-04-20 16:12:22.478 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - null null
+2025-04-20 16:12:22.483 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 16:12:22.490 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)' with route pattern 'api/Flights/GetInconsistencies' is valid for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 16:12:22.491 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:12:22.495 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 16:12:22.496 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:12:22.525 +03:00 [INF] Route matched with {action = "GetInconsistencies", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]] GetInconsistencies() on controller FlightData.Api.Controllers.FlightsController (FlightData.Api).
+2025-04-20 16:12:22.526 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 16:12:22.527 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 16:12:22.527 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 16:12:22.527 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 16:12:22.527 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 16:12:22.529 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:12:22.530 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:12:23.098 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 16:12:23.099 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 16:12:23.100 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 16:12:23.100 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 16:12:23.100 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 16:12:23.101 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 16:12:23.101 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IList`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[FlightData.Services.FlightDataService+<GetFlightInconsistenciesAsync>d__4, FlightData.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 16:12:23.422 +03:00 [INF] Executed action FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api) in 884.5651ms
+2025-04-20 16:12:23.479 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:12:23.546 +03:00 [ERR] HTTP GET /api/Flights/GetInconsistencies responded 500 in 1051.9929 ms
+System.InvalidOperationException: The type 'System.Threading.ExecutionContext&' of property 'Context' on type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight],FlightData.Services.FlightDataService+<GetFlightInconsistenciesAsync>d__4]' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_CannotSerializeInvalidType(Type typeToConvert, Type declaringType, MemberInfo memberInfo)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreatePropertyInfo(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, JsonSerializerOptions options, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMember(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMembersDeclaredBySuperType(JsonTypeInfo typeInfo, Type currentType, NullabilityInfoContext nullabilityCtx, Boolean constructorHasSetsRequiredMembersAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.PopulateProperties(JsonTypeInfo typeInfo, NullabilityInfoContext nullabilityCtx)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateTypeInfoCore(Type type, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoNoCaching(Type type)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CacheEntry.GetResult()
+   at System.Text.Json.JsonSerializerOptions.CachingContext.GetOrAddTypeInfo(Type type, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-20 16:12:23.608 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The type 'System.Threading.ExecutionContext&' of property 'Context' on type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight],FlightData.Services.FlightDataService+<GetFlightInconsistenciesAsync>d__4]' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_CannotSerializeInvalidType(Type typeToConvert, Type declaringType, MemberInfo memberInfo)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreatePropertyInfo(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, JsonSerializerOptions options, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMember(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMembersDeclaredBySuperType(JsonTypeInfo typeInfo, Type currentType, NullabilityInfoContext nullabilityCtx, Boolean constructorHasSetsRequiredMembersAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.PopulateProperties(JsonTypeInfo typeInfo, NullabilityInfoContext nullabilityCtx)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateTypeInfoCore(Type type, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoNoCaching(Type type)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CacheEntry.GetResult()
+   at System.Text.Json.JsonSerializerOptions.CachingContext.GetOrAddTypeInfo(Type type, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-20 16:12:23.614 +03:00 [ERR] Exception occurred: The type 'System.Threading.ExecutionContext&' of property 'Context' on type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight],FlightData.Services.FlightDataService+<GetFlightInconsistenciesAsync>d__4]' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+System.InvalidOperationException: The type 'System.Threading.ExecutionContext&' of property 'Context' on type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight],FlightData.Services.FlightDataService+<GetFlightInconsistenciesAsync>d__4]' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_CannotSerializeInvalidType(Type typeToConvert, Type declaringType, MemberInfo memberInfo)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreatePropertyInfo(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, JsonSerializerOptions options, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMember(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMembersDeclaredBySuperType(JsonTypeInfo typeInfo, Type currentType, NullabilityInfoContext nullabilityCtx, Boolean constructorHasSetsRequiredMembersAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.PopulateProperties(JsonTypeInfo typeInfo, NullabilityInfoContext nullabilityCtx)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateTypeInfoCore(Type type, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoNoCaching(Type type)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CacheEntry.GetResult()
+   at System.Text.Json.JsonSerializerOptions.CachingContext.GetOrAddTypeInfo(Type type, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-04-20 16:12:23.628 +03:00 [DBG] Connection id "0HNC01JRNBKDK" completed keep alive response.
+2025-04-20 16:12:23.628 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - 500 null application/json; charset=utf-8 1150.6064ms
+2025-04-20 16:12:28.745 +03:00 [DBG] Connection id "0HNC01JRNBKDK" received FIN.
+2025-04-20 16:12:28.745 +03:00 [DBG] Connection id "0HNC01JRNBKDK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:12:28.745 +03:00 [DBG] Connection id "0HNC01JRNBKDK" disconnecting.
+2025-04-20 16:12:28.745 +03:00 [DBG] Connection id "0HNC01JRNBKDK" stopped.
+2025-04-20 16:12:37.458 +03:00 [DBG] Connection id "0HNC01JRNBKDL" accepted.
+2025-04-20 16:12:37.458 +03:00 [DBG] Connection id "0HNC01JRNBKDL" started.
+2025-04-20 16:12:37.459 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/Get - null null
+2025-04-20 16:12:37.460 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/Get'
+2025-04-20 16:12:37.460 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)' with route pattern 'api/Flights/Get' is valid for the request path '/api/Flights/Get'
+2025-04-20 16:12:37.460 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:12:37.462 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 16:12:37.462 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:12:37.478 +03:00 [INF] Route matched with {action = "Get", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]]] Get() on controller FlightData.Api.Controllers.FlightsController (FlightData.Api).
+2025-04-20 16:12:37.478 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 16:12:37.479 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 16:12:37.479 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 16:12:37.479 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 16:12:37.479 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 16:12:37.479 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:12:37.480 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:12:37.484 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 16:12:37.484 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 16:12:37.484 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 16:12:37.484 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 16:12:37.484 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 16:12:37.484 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 16:12:37.484 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 16:12:37.503 +03:00 [INF] Executed action FlightData.Api.Controllers.FlightsController.Get (FlightData.Api) in 23.8971ms
+2025-04-20 16:12:37.503 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:12:37.503 +03:00 [INF] HTTP GET /api/Flights/Get responded 200 in 41.1114 ms
+2025-04-20 16:12:37.503 +03:00 [DBG] Connection id "0HNC01JRNBKDL" completed keep alive response.
+2025-04-20 16:12:37.503 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/Get - 200 null application/json; charset=utf-8 44.4749ms
+2025-04-20 16:12:38.756 +03:00 [DBG] Connection id "0HNC01JRNBKDL" received FIN.
+2025-04-20 16:12:38.756 +03:00 [DBG] Connection id "0HNC01JRNBKDL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:12:38.756 +03:00 [DBG] Connection id "0HNC01JRNBKDL" disconnecting.
+2025-04-20 16:12:38.757 +03:00 [DBG] Connection id "0HNC01JRNBKDL" stopped.
+2025-04-20 16:13:07.479 +03:00 [DBG] Connection id "0HNC01JRNBKDM" accepted.
+2025-04-20 16:13:07.480 +03:00 [DBG] Connection id "0HNC01JRNBKDM" started.
+2025-04-20 16:13:07.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-04-20 16:13:07.483 +03:00 [DBG] Connection id "0HNC01JRNBKDN" accepted.
+2025-04-20 16:13:07.483 +03:00 [DBG] Connection id "0HNC01JRNBKDN" started.
+2025-04-20 16:13:07.506 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-20 16:13:07.506 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:13:07.506 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-20 16:13:07.506 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-20 16:13:07.506 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2962 ms
+2025-04-20 16:13:07.506 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-20 16:13:07.506 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-20 16:13:07.506 +03:00 [DBG] Connection id "0HNC01JRNBKDM" completed keep alive response.
+2025-04-20 16:13:07.506 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 25.1446ms
+2025-04-20 16:13:07.561 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2025-04-20 16:13:07.562 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-04-20 16:13:07.562 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:13:07.563 +03:00 [DBG] Connection id "0HNC01JRNBKDO" accepted.
+2025-04-20 16:13:07.564 +03:00 [INF] HTTP GET /swagger/index.js responded 200 in 2.1506 ms
+2025-04-20 16:13:07.564 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-20 16:13:07.564 +03:00 [DBG] Connection id "0HNC01JRNBKDM" completed keep alive response.
+2025-04-20 16:13:07.564 +03:00 [DBG] Connection id "0HNC01JRNBKDO" started.
+2025-04-20 16:13:07.564 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 3.4936ms
+2025-04-20 16:13:07.564 +03:00 [DBG] Connection id "0HNC01JRNBKDN" completed keep alive response.
+2025-04-20 16:13:07.565 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.4651ms
+2025-04-20 16:13:07.578 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_vs/browserLink - null null
+2025-04-20 16:13:07.717 +03:00 [DBG] Connection id "0HNC01JRNBKDO" completed keep alive response.
+2025-04-20 16:13:07.718 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_vs/browserLink - 200 null text/javascript; charset=UTF-8 139.2315ms
+2025-04-20 16:13:07.869 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-04-20 16:13:07.873 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-20 16:13:07.874 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:13:07.891 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 16.5691 ms
+2025-04-20 16:13:07.891 +03:00 [DBG] Connection id "0HNC01JRNBKDO" completed keep alive response.
+2025-04-20 16:13:07.892 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.3392ms
+2025-04-20 16:13:07.934 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/favicon-32x32.png - null null
+2025-04-20 16:13:07.935 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-04-20 16:13:07.935 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:13:07.963 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-20 16:13:07.964 +03:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 28.5920 ms
+2025-04-20 16:13:07.964 +03:00 [DBG] Connection id "0HNC01JRNBKDO" completed keep alive response.
+2025-04-20 16:13:07.964 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/favicon-32x32.png - 200 628 image/png 29.9465ms
+2025-04-20 16:13:08.789 +03:00 [DBG] Connection id "0HNC01JRNBKDN" received FIN.
+2025-04-20 16:13:08.790 +03:00 [DBG] Connection id "0HNC01JRNBKDO" received FIN.
+2025-04-20 16:13:08.790 +03:00 [DBG] Connection id "0HNC01JRNBKDM" received FIN.
+2025-04-20 16:13:08.790 +03:00 [DBG] Connection id "0HNC01JRNBKDN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:13:08.790 +03:00 [DBG] Connection id "0HNC01JRNBKDO" disconnecting.
+2025-04-20 16:13:08.790 +03:00 [DBG] Connection id "0HNC01JRNBKDO" stopped.
+2025-04-20 16:13:08.790 +03:00 [DBG] Connection id "0HNC01JRNBKDN" disconnecting.
+2025-04-20 16:13:08.790 +03:00 [DBG] Connection id "0HNC01JRNBKDM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:13:08.791 +03:00 [DBG] Connection id "0HNC01JRNBKDN" stopped.
+2025-04-20 16:13:08.791 +03:00 [DBG] Connection id "0HNC01JRNBKDM" disconnecting.
+2025-04-20 16:13:08.793 +03:00 [DBG] Connection id "0HNC01JRNBKDO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:13:08.793 +03:00 [DBG] Connection id "0HNC01JRNBKDM" stopped.
+2025-04-20 16:13:11.904 +03:00 [DBG] Connection id "0HNC01JRNBKDP" accepted.
+2025-04-20 16:13:11.905 +03:00 [DBG] Connection id "0HNC01JRNBKDP" started.
+2025-04-20 16:13:11.906 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - null null
+2025-04-20 16:13:11.906 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 16:13:11.906 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)' with route pattern 'api/Flights/GetInconsistencies' is valid for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 16:13:11.906 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:13:11.907 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 16:13:11.907 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:13:11.907 +03:00 [INF] Route matched with {action = "GetInconsistencies", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]] GetInconsistencies() on controller FlightData.Api.Controllers.FlightsController (FlightData.Api).
+2025-04-20 16:13:11.907 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 16:13:11.907 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 16:13:11.907 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 16:13:11.907 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 16:13:11.907 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 16:13:11.907 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:13:11.908 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:13:11.915 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 16:13:11.915 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 16:13:11.915 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 16:13:11.915 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 16:13:11.915 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 16:13:11.915 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 16:13:11.916 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.IList`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-20 16:13:11.948 +03:00 [INF] Executed action FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api) in 40.2578ms
+2025-04-20 16:13:11.948 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:13:11.948 +03:00 [INF] HTTP GET /api/Flights/GetInconsistencies responded 200 in 41.3986 ms
+2025-04-20 16:13:11.948 +03:00 [DBG] Connection id "0HNC01JRNBKDP" completed keep alive response.
+2025-04-20 16:13:11.948 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - 200 null application/json; charset=utf-8 42.3765ms
+2025-04-20 16:13:13.798 +03:00 [DBG] Connection id "0HNC01JRNBKDP" received FIN.
+2025-04-20 16:13:13.799 +03:00 [DBG] Connection id "0HNC01JRNBKDP" disconnecting.
+2025-04-20 16:13:13.799 +03:00 [DBG] Connection id "0HNC01JRNBKDP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:13:13.799 +03:00 [DBG] Connection id "0HNC01JRNBKDP" stopped.
+2025-04-20 16:14:03.040 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-20 16:14:03.161 +03:00 [DBG] Hosting starting
+2025-04-20 16:14:03.396 +03:00 [INF] Now listening on: http://localhost:5043
+2025-04-20 16:14:03.396 +03:00 [DBG] Loaded hosting startup assembly FlightData.Api
+2025-04-20 16:14:03.397 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-20 16:14:03.397 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-20 16:14:03.397 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-20 16:14:03.549 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-20 16:14:03.549 +03:00 [INF] Hosting environment: Development
+2025-04-20 16:14:03.550 +03:00 [INF] Content root path: E:\Job Search\Job applications\QOCO\Assignment\FlightData.Api\FlightData.Api
+2025-04-20 16:14:03.550 +03:00 [DBG] Hosting started
+2025-04-20 16:14:03.642 +03:00 [DBG] Connection id "0HNC01KSGKUKE" received FIN.
+2025-04-20 16:14:03.642 +03:00 [DBG] Connection id "0HNC01KSGKUKD" received FIN.
+2025-04-20 16:14:03.645 +03:00 [DBG] Connection id "0HNC01KSGKUKE" accepted.
+2025-04-20 16:14:03.645 +03:00 [DBG] Connection id "0HNC01KSGKUKD" accepted.
+2025-04-20 16:14:03.652 +03:00 [DBG] Connection id "0HNC01KSGKUKD" started.
+2025-04-20 16:14:03.653 +03:00 [DBG] Connection id "0HNC01KSGKUKE" started.
+2025-04-20 16:14:03.664 +03:00 [DBG] Connection id "0HNC01KSGKUKD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:14:03.664 +03:00 [DBG] Connection id "0HNC01KSGKUKE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:14:03.667 +03:00 [DBG] Connection id "0HNC01KSGKUKD" disconnecting.
+2025-04-20 16:14:03.667 +03:00 [DBG] Connection id "0HNC01KSGKUKE" disconnecting.
+2025-04-20 16:14:03.673 +03:00 [DBG] Connection id "0HNC01KSGKUKD" stopped.
+2025-04-20 16:14:03.673 +03:00 [DBG] Connection id "0HNC01KSGKUKE" stopped.
+2025-04-20 16:14:04.316 +03:00 [DBG] Connection id "0HNC01KSGKUKF" accepted.
+2025-04-20 16:14:04.316 +03:00 [DBG] Connection id "0HNC01KSGKUKF" started.
+2025-04-20 16:14:04.317 +03:00 [DBG] Connection id "0HNC01KSGKUKG" accepted.
+2025-04-20 16:14:04.317 +03:00 [DBG] Connection id "0HNC01KSGKUKG" started.
+2025-04-20 16:14:04.467 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-04-20 16:14:04.733 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-20 16:14:04.770 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-20 16:14:04.770 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:14:04.894 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-20 16:14:04.897 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-20 16:14:04.934 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 152.1067 ms
+2025-04-20 16:14:04.936 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-20 16:14:04.937 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-20 16:14:04.937 +03:00 [DBG] Connection id "0HNC01KSGKUKF" completed keep alive response.
+2025-04-20 16:14:04.943 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 513.9074ms
+2025-04-20 16:14:04.954 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2025-04-20 16:14:04.954 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-04-20 16:14:04.955 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:14:04.976 +03:00 [INF] HTTP GET /swagger/index.js responded 200 in 12.6290 ms
+2025-04-20 16:14:04.977 +03:00 [DBG] Connection id "0HNC01KSGKUKF" completed keep alive response.
+2025-04-20 16:14:04.977 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 24.466ms
+2025-04-20 16:14:05.134 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_vs/browserLink - null null
+2025-04-20 16:14:05.136 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-20 16:14:05.150 +03:00 [DBG] Connection id "0HNC01KSGKUKG" completed keep alive response.
+2025-04-20 16:14:05.150 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 14.3386ms
+2025-04-20 16:14:05.284 +03:00 [DBG] Connection id "0HNC01KSGKUKF" completed keep alive response.
+2025-04-20 16:14:05.284 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_vs/browserLink - 200 null text/javascript; charset=UTF-8 149.7929ms
+2025-04-20 16:14:05.670 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-04-20 16:14:05.671 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-20 16:14:05.671 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:14:05.934 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 258.0703 ms
+2025-04-20 16:14:05.934 +03:00 [DBG] Connection id "0HNC01KSGKUKF" completed keep alive response.
+2025-04-20 16:14:05.935 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 264.5043ms
+2025-04-20 16:14:08.881 +03:00 [DBG] Connection id "0HNC01KSGKUKG" received FIN.
+2025-04-20 16:14:08.881 +03:00 [DBG] Connection id "0HNC01KSGKUKF" received FIN.
+2025-04-20 16:14:08.882 +03:00 [DBG] Connection id "0HNC01KSGKUKG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:14:08.882 +03:00 [DBG] Connection id "0HNC01KSGKUKF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:14:08.883 +03:00 [DBG] Connection id "0HNC01KSGKUKG" disconnecting.
+2025-04-20 16:14:08.883 +03:00 [DBG] Connection id "0HNC01KSGKUKF" disconnecting.
+2025-04-20 16:14:08.913 +03:00 [DBG] Connection id "0HNC01KSGKUKG" stopped.
+2025-04-20 16:14:08.913 +03:00 [DBG] Connection id "0HNC01KSGKUKF" stopped.
+2025-04-20 16:14:11.654 +03:00 [DBG] Connection id "0HNC01KSGKUKH" accepted.
+2025-04-20 16:14:11.655 +03:00 [DBG] Connection id "0HNC01KSGKUKH" started.
+2025-04-20 16:14:11.655 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/Get - null null
+2025-04-20 16:14:11.661 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/Get'
+2025-04-20 16:14:11.664 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)' with route pattern 'api/Flights/Get' is valid for the request path '/api/Flights/Get'
+2025-04-20 16:14:11.664 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:14:11.666 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 16:14:11.669 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:14:11.708 +03:00 [INF] Route matched with {action = "Get", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]]] Get() on controller FlightData.Api.Controllers.FlightsController (FlightData.Api).
+2025-04-20 16:14:11.709 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 16:14:11.709 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 16:14:11.710 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 16:14:11.710 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 16:14:11.710 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 16:14:11.713 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:14:11.714 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:14:11.963 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 16:14:11.965 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 16:14:11.967 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 16:14:11.968 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 16:14:11.968 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 16:14:11.969 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 16:14:11.970 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 16:14:12.040 +03:00 [INF] Executed action FlightData.Api.Controllers.FlightsController.Get (FlightData.Api) in 327.2375ms
+2025-04-20 16:14:12.041 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:14:12.042 +03:00 [INF] HTTP GET /api/Flights/Get responded 200 in 377.0277 ms
+2025-04-20 16:14:12.043 +03:00 [DBG] Connection id "0HNC01KSGKUKH" completed keep alive response.
+2025-04-20 16:14:12.043 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/Get - 200 null application/json; charset=utf-8 388.0745ms
+2025-04-20 16:14:13.887 +03:00 [DBG] Connection id "0HNC01KSGKUKH" received FIN.
+2025-04-20 16:14:13.887 +03:00 [DBG] Connection id "0HNC01KSGKUKH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:14:13.888 +03:00 [DBG] Connection id "0HNC01KSGKUKH" disconnecting.
+2025-04-20 16:14:13.888 +03:00 [DBG] Connection id "0HNC01KSGKUKH" stopped.
+2025-04-20 16:14:21.113 +03:00 [DBG] Connection id "0HNC01KSGKUKI" accepted.
+2025-04-20 16:14:21.113 +03:00 [DBG] Connection id "0HNC01KSGKUKI" started.
+2025-04-20 16:14:21.113 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/Get - null null
+2025-04-20 16:14:21.115 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/Get'
+2025-04-20 16:14:21.115 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)' with route pattern 'api/Flights/Get' is valid for the request path '/api/Flights/Get'
+2025-04-20 16:14:21.115 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:14:21.115 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 16:14:21.115 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:14:21.115 +03:00 [INF] Route matched with {action = "Get", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]]] Get() on controller FlightData.Api.Controllers.FlightsController (FlightData.Api).
+2025-04-20 16:14:21.115 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 16:14:21.115 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 16:14:21.115 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 16:14:21.115 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 16:14:21.116 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 16:14:21.116 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:14:21.116 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:14:21.116 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 16:14:21.116 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 16:14:21.116 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 16:14:21.116 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 16:14:21.116 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 16:14:21.117 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 16:14:21.117 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 16:14:21.128 +03:00 [INF] Executed action FlightData.Api.Controllers.FlightsController.Get (FlightData.Api) in 12.3378ms
+2025-04-20 16:14:21.128 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:14:21.128 +03:00 [INF] HTTP GET /api/Flights/Get responded 200 in 13.1401 ms
+2025-04-20 16:14:21.128 +03:00 [DBG] Connection id "0HNC01KSGKUKI" completed keep alive response.
+2025-04-20 16:14:21.128 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/Get - 200 null application/json; charset=utf-8 14.7974ms
+2025-04-20 16:14:23.905 +03:00 [DBG] Connection id "0HNC01KSGKUKI" received FIN.
+2025-04-20 16:14:23.906 +03:00 [DBG] Connection id "0HNC01KSGKUKI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:14:23.906 +03:00 [DBG] Connection id "0HNC01KSGKUKI" disconnecting.
+2025-04-20 16:14:23.906 +03:00 [DBG] Connection id "0HNC01KSGKUKI" stopped.
+2025-04-20 16:14:41.485 +03:00 [DBG] Connection id "0HNC01KSGKUKJ" accepted.
+2025-04-20 16:14:41.486 +03:00 [DBG] Connection id "0HNC01KSGKUKJ" started.
+2025-04-20 16:14:41.486 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - null null
+2025-04-20 16:14:41.486 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 16:14:41.486 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)' with route pattern 'api/Flights/GetInconsistencies' is valid for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 16:14:41.486 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:14:41.486 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 16:14:41.486 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:14:41.496 +03:00 [INF] Route matched with {action = "GetInconsistencies", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]]] GetInconsistencies() on controller FlightData.Api.Controllers.FlightsController (FlightData.Api).
+2025-04-20 16:14:41.496 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 16:14:41.496 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 16:14:41.496 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 16:14:41.496 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 16:14:41.496 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 16:14:41.496 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:14:41.496 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:15:25.885 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 16:15:25.885 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 16:15:25.885 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 16:15:25.885 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 16:15:25.885 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 16:15:25.885 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 16:15:25.886 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 16:15:25.886 +03:00 [INF] Executed action FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api) in 44389.5755ms
+2025-04-20 16:15:25.886 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:15:25.886 +03:00 [INF] HTTP GET /api/Flights/GetInconsistencies responded 200 in 44399.5515 ms
+2025-04-20 16:15:25.886 +03:00 [DBG] Connection id "0HNC01KSGKUKJ" completed keep alive response.
+2025-04-20 16:15:25.886 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - 200 null application/json; charset=utf-8 44400.0492ms
+2025-04-20 16:15:33.997 +03:00 [DBG] Connection id "0HNC01KSGKUKJ" received FIN.
+2025-04-20 16:15:33.997 +03:00 [DBG] Connection id "0HNC01KSGKUKJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:15:33.997 +03:00 [DBG] Connection id "0HNC01KSGKUKJ" disconnecting.
+2025-04-20 16:15:33.998 +03:00 [DBG] Connection id "0HNC01KSGKUKJ" stopped.
+2025-04-20 16:27:52.984 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-20 16:27:53.484 +03:00 [DBG] Hosting starting
+2025-04-20 16:27:54.966 +03:00 [DBG] Connection id "0HNC01SK8P4P5" received FIN.
+2025-04-20 16:27:54.981 +03:00 [DBG] Connection id "0HNC01SK8P4P5" accepted.
+2025-04-20 16:27:54.984 +03:00 [DBG] Connection id "0HNC01SK8P4P5" started.
+2025-04-20 16:27:55.005 +03:00 [INF] Now listening on: http://localhost:5043
+2025-04-20 16:27:55.005 +03:00 [DBG] Loaded hosting startup assembly FlightData.Api
+2025-04-20 16:27:55.006 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-20 16:27:55.006 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-20 16:27:55.006 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-20 16:27:55.012 +03:00 [DBG] Connection id "0HNC01SK8P4P5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:27:55.017 +03:00 [DBG] Connection id "0HNC01SK8P4P5" disconnecting.
+2025-04-20 16:27:55.028 +03:00 [DBG] Connection id "0HNC01SK8P4P5" stopped.
+2025-04-20 16:27:55.335 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-20 16:27:55.336 +03:00 [INF] Hosting environment: Development
+2025-04-20 16:27:55.336 +03:00 [INF] Content root path: E:\Job Search\Job applications\QOCO\Assignment\FlightData.Api\FlightData.Api
+2025-04-20 16:27:55.337 +03:00 [DBG] Hosting started
+2025-04-20 16:27:56.872 +03:00 [DBG] Connection id "0HNC01SK8P4P6" accepted.
+2025-04-20 16:27:56.873 +03:00 [DBG] Connection id "0HNC01SK8P4P6" started.
+2025-04-20 16:27:56.881 +03:00 [DBG] Connection id "0HNC01SK8P4P7" accepted.
+2025-04-20 16:27:56.886 +03:00 [DBG] Connection id "0HNC01SK8P4P7" started.
+2025-04-20 16:27:57.299 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-04-20 16:27:57.904 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-20 16:27:57.966 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-20 16:27:57.967 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:27:58.229 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-20 16:27:58.232 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-20 16:27:58.302 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 316.6996 ms
+2025-04-20 16:27:58.312 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-20 16:27:58.315 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-20 16:27:58.323 +03:00 [DBG] Connection id "0HNC01SK8P4P6" completed keep alive response.
+2025-04-20 16:27:58.330 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 1058.0186ms
+2025-04-20 16:27:58.587 +03:00 [DBG] Connection id "0HNC01SK8P4P8" accepted.
+2025-04-20 16:27:58.588 +03:00 [DBG] Connection id "0HNC01SK8P4P8" started.
+2025-04-20 16:27:58.600 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_vs/browserLink - null null
+2025-04-20 16:27:58.601 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2025-04-20 16:27:58.601 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-20 16:27:58.601 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-04-20 16:27:58.601 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:27:58.631 +03:00 [DBG] Connection id "0HNC01SK8P4P6" completed keep alive response.
+2025-04-20 16:27:58.632 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 31.0307ms
+2025-04-20 16:27:58.637 +03:00 [INF] HTTP GET /swagger/index.js responded 200 in 29.0141 ms
+2025-04-20 16:27:58.638 +03:00 [DBG] Connection id "0HNC01SK8P4P7" completed keep alive response.
+2025-04-20 16:27:58.638 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 38.9747ms
+2025-04-20 16:27:59.137 +03:00 [DBG] Connection id "0HNC01SK8P4P8" completed keep alive response.
+2025-04-20 16:27:59.137 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/_vs/browserLink - 200 null text/javascript; charset=UTF-8 539.0453ms
+2025-04-20 16:27:59.307 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-04-20 16:27:59.307 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-20 16:27:59.308 +03:00 [DBG] Request did not match any endpoints
+2025-04-20 16:27:59.713 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 403.3610 ms
+2025-04-20 16:27:59.714 +03:00 [DBG] Connection id "0HNC01SK8P4P8" completed keep alive response.
+2025-04-20 16:27:59.714 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 407.9042ms
+2025-04-20 16:28:00.169 +03:00 [DBG] Connection id "0HNC01SK8P4P7" received FIN.
+2025-04-20 16:28:00.168 +03:00 [DBG] Connection id "0HNC01SK8P4P8" received FIN.
+2025-04-20 16:28:00.169 +03:00 [DBG] Connection id "0HNC01SK8P4P7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:28:00.169 +03:00 [DBG] Connection id "0HNC01SK8P4P7" disconnecting.
+2025-04-20 16:28:00.170 +03:00 [DBG] Connection id "0HNC01SK8P4P8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:28:00.171 +03:00 [DBG] Connection id "0HNC01SK8P4P8" disconnecting.
+2025-04-20 16:28:00.174 +03:00 [DBG] Connection id "0HNC01SK8P4P8" stopped.
+2025-04-20 16:28:00.176 +03:00 [DBG] Connection id "0HNC01SK8P4P7" stopped.
+2025-04-20 16:28:00.180 +03:00 [DBG] Connection id "0HNC01SK8P4P6" received FIN.
+2025-04-20 16:28:00.180 +03:00 [DBG] Connection id "0HNC01SK8P4P6" disconnecting.
+2025-04-20 16:28:00.180 +03:00 [DBG] Connection id "0HNC01SK8P4P6" stopped.
+2025-04-20 16:28:00.182 +03:00 [DBG] Connection id "0HNC01SK8P4P6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:28:09.504 +03:00 [DBG] Connection id "0HNC01SK8P4P9" accepted.
+2025-04-20 16:28:09.505 +03:00 [DBG] Connection id "0HNC01SK8P4P9" started.
+2025-04-20 16:28:09.506 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/Get - null null
+2025-04-20 16:28:09.515 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/Get'
+2025-04-20 16:28:09.522 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)' with route pattern 'api/Flights/Get' is valid for the request path '/api/Flights/Get'
+2025-04-20 16:28:09.523 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:28:09.526 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 16:28:09.527 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:28:09.557 +03:00 [INF] Route matched with {action = "Get", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]]] Get() on controller FlightData.Api.Controllers.FlightsController (FlightData.Api).
+2025-04-20 16:28:09.559 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 16:28:09.559 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 16:28:09.559 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 16:28:09.559 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 16:28:09.559 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 16:28:09.561 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:28:09.562 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:28:09.746 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 16:28:09.749 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 16:28:09.750 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 16:28:09.751 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 16:28:09.751 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 16:28:09.751 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 16:28:09.752 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 16:28:09.827 +03:00 [INF] Executed action FlightData.Api.Controllers.FlightsController.Get (FlightData.Api) in 265.3265ms
+2025-04-20 16:28:09.827 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.FlightsController.Get (FlightData.Api)'
+2025-04-20 16:28:09.828 +03:00 [INF] HTTP GET /api/Flights/Get responded 200 in 302.9366 ms
+2025-04-20 16:28:09.829 +03:00 [DBG] Connection id "0HNC01SK8P4P9" completed keep alive response.
+2025-04-20 16:28:09.829 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/Get - 200 null application/json; charset=utf-8 324.0308ms
+2025-04-20 16:28:15.181 +03:00 [DBG] Connection id "0HNC01SK8P4P9" received FIN.
+2025-04-20 16:28:15.182 +03:00 [DBG] Connection id "0HNC01SK8P4P9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:28:15.182 +03:00 [DBG] Connection id "0HNC01SK8P4P9" disconnecting.
+2025-04-20 16:28:15.192 +03:00 [DBG] Connection id "0HNC01SK8P4P9" stopped.
+2025-04-20 16:28:33.762 +03:00 [DBG] Connection id "0HNC01SK8P4PA" accepted.
+2025-04-20 16:28:33.762 +03:00 [DBG] Connection id "0HNC01SK8P4PA" started.
+2025-04-20 16:28:33.763 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - null null
+2025-04-20 16:28:33.765 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 16:28:33.765 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)' with route pattern 'api/Flights/GetInconsistencies' is valid for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 16:28:33.765 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:28:33.765 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 16:28:33.765 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:28:33.780 +03:00 [INF] Route matched with {action = "GetInconsistencies", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]]] GetInconsistencies() on controller FlightData.Api.Controllers.FlightsController (FlightData.Api).
+2025-04-20 16:28:33.780 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 16:28:33.780 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 16:28:33.780 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 16:28:33.780 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 16:28:33.780 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 16:28:33.781 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:28:33.781 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:28:33.797 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-20 16:28:33.797 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-04-20 16:28:33.798 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-20 16:28:33.798 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-20 16:28:33.798 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-20 16:28:33.798 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-20 16:28:33.798 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightData.Entities.Flight, FlightData.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-20 16:28:33.801 +03:00 [INF] Executed action FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api) in 19.9391ms
+2025-04-20 16:28:33.801 +03:00 [INF] Executed endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:28:33.801 +03:00 [INF] HTTP GET /api/Flights/GetInconsistencies responded 200 in 36.1050 ms
+2025-04-20 16:28:33.802 +03:00 [DBG] Connection id "0HNC01SK8P4PA" completed keep alive response.
+2025-04-20 16:28:33.802 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - 200 null application/json; charset=utf-8 39.6546ms
+2025-04-20 16:28:35.221 +03:00 [DBG] Connection id "0HNC01SK8P4PA" received FIN.
+2025-04-20 16:28:35.222 +03:00 [DBG] Connection id "0HNC01SK8P4PA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-20 16:28:35.222 +03:00 [DBG] Connection id "0HNC01SK8P4PA" disconnecting.
+2025-04-20 16:28:35.235 +03:00 [DBG] Connection id "0HNC01SK8P4PA" stopped.
+2025-04-20 16:32:12.639 +03:00 [DBG] Connection id "0HNC01SK8P4PB" accepted.
+2025-04-20 16:32:12.644 +03:00 [DBG] Connection id "0HNC01SK8P4PB" started.
+2025-04-20 16:32:12.668 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Flights/GetInconsistencies - null null
+2025-04-20 16:32:12.684 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 16:32:12.685 +03:00 [DBG] Endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)' with route pattern 'api/Flights/GetInconsistencies' is valid for the request path '/api/Flights/GetInconsistencies'
+2025-04-20 16:32:12.687 +03:00 [DBG] Request matched endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:32:12.700 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-20 16:32:12.700 +03:00 [INF] Executing endpoint 'FlightData.Api.Controllers.FlightsController.GetInconsistencies (FlightData.Api)'
+2025-04-20 16:32:12.720 +03:00 [INF] Route matched with {action = "GetInconsistencies", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[FlightData.Entities.Flight]]] GetInconsistencies() on controller FlightData.Api.Controllers.FlightsController (FlightData.Api).
+2025-04-20 16:32:12.722 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-20 16:32:12.723 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-20 16:32:12.724 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-20 16:32:12.724 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-20 16:32:12.724 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-20 16:32:12.725 +03:00 [DBG] Executing controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
+2025-04-20 16:32:12.728 +03:00 [DBG] Executed controller factory for controller FlightData.Api.Controllers.FlightsController (FlightData.Api)
