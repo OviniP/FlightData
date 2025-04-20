@@ -3,6 +3,7 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using FlightData.Entities;
 using FlightData.Services.Contracts;
+using Microsoft.Extensions.Options;
 
 namespace FlightData.Services
 {
@@ -17,10 +18,10 @@ namespace FlightData.Services
         /// <summary>
         /// Initializes a new instance of the <see cref="FileReaderService"/> class with the specified file path.
         /// </summary>
-        /// <param name="filePath">The path to the CSV file containing flight data.</param>
-        public FileReaderService(string filePath)
+        /// <param name="apiSettings">Application settings</param>
+        public FileReaderService(IOptions<ApiSettings> apiSettings)
         {
-            _filePath = filePath;
+            _filePath = apiSettings.Value.DataFilePath;
         }
 
         /// <summary>
