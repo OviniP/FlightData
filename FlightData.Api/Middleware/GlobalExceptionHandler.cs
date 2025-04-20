@@ -8,17 +8,32 @@ using System.Text.Json;
 
 namespace FlightData.Api.Middleware
 {
+    /// <summary>
+    /// Handles unhandled exceptions globally and returns a structured <see cref="ProblemDetails"/> response.
+    /// </summary>
     internal sealed class GlobalExceptionHandler : IExceptionHandler
     {
         private readonly ILogger<GlobalExceptionHandler> _logger;
         private readonly IHostEnvironment _env;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="GlobalExceptionHandler"/> class.
+        /// </summary>
+        /// <param name="logger">The logger used to log exception details.</param>
+        /// <param name="env">The hosting environment, used to determine whether to show stack traces.</param>
         public GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logger, IHostEnvironment env)
         {
             _logger = logger;
             _env = env;
         }
 
+        /// <summary>
+        /// Attempts to handle an unhandled exception by returning a standardized <see cref="ProblemDetails"/> response.
+        /// </summary>
+        /// <param name="httpContext">The current <see cref="HttpContext"/>.</param>
+        /// <param name="exception">The unhandled exception that occurred.</param>
+        /// <param name="cancellationToken">A cancellation token.</param>
+        /// <returns>Returns <c>true</c> if the exception was successfully handled.</returns>
         public async ValueTask<bool> TryHandleAsync(
             HttpContext httpContext,
             Exception exception,

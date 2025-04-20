@@ -2,20 +2,30 @@
 using FlightData.Services.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace FlightData.Api.Controllers
 {
+    /// <summary>
+    /// API Controller to work with Flight related data
+    /// </summary>
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class FlightsController : ControllerBase
     {
         private readonly IFlightDataService _flightDataService;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="FlightsController"/> class.
+        /// </summary>
+        /// <param name="flightDataService">Service used to retrieve flight data.</param>
         public FlightsController(IFlightDataService flightDataService)
         {
                 _flightDataService = flightDataService;
         }
 
+        /// <summary>
+        /// Retrieves a list of all available flight data.
+        /// </summary>
+        /// <returns>A list of <see cref="Flight"/> objects.</returns>
         [HttpGet]
         public  async Task<ActionResult<IList<Flight>>> Get()
         {
@@ -23,6 +33,10 @@ namespace FlightData.Api.Controllers
             return Ok(flightData);
         }
 
+        /// <summary>
+        /// Retrieves a list of flights with detected data inconsistencies.
+        /// </summary>
+        /// <returns>A list of <see cref="Flight"/> objects with inconsistencies.</returns>
         [HttpGet]
         public async Task<ActionResult<IList<Flight>>> GetInconsistencies()
         {
