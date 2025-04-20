@@ -35,3 +35,6 @@ Desktop.ini
 
 ## Ignore temporary ASP.NET files
 _aspnetgenerate/
+
+## Ignore logs
+logs/

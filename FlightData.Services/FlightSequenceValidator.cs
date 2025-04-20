@@ -22,8 +22,7 @@ namespace FlightData.Services
 
             foreach (var group in flightsByAircraft)
             {
-                var sorted = group.OrderBy(f => f.DepartureDateTime)
-                                  .ThenBy(f => f.ArrivalDateTime)
+                var sorted = group.OrderBy(f => f.DepartureTimeCasted)
                                   .ToList();
 
                 for (int index = 0; index < sorted.Count; index++)
@@ -31,9 +30,9 @@ namespace FlightData.Services
                     var prev = index == 0 ? null : sorted[index - 1];
                     var curr = sorted[index];
 
-                    if (IsArrivedBeforeDepart(curr) ||
-                        IsDeparturedBeforePreviousArrival(prev, curr) ||
-                        IsLocationInconsistant(prev, curr))
+                    if (!IsArrivedAfterDepart(curr) ||
+                        !IsDeparturedAfterPreviousArrival(prev, curr) ||
+                        !IsLocationConsistant(prev, curr))
                     {
                         inconsistencies.Add(curr);
                     }
@@ -48,9 +47,9 @@ namespace FlightData.Services
         /// </summary>
         /// <param name="flight">The flight to check.</param>
         /// <returns>True if the arrival time is earlier than the departure time.</returns>
-        private bool IsArrivedBeforeDepart(Flight flight)
+        private bool IsArrivedAfterDepart(Flight flight)
         {
-            return flight.DepartureTimeCasted > flight.ArrivalTimeCasted;
+            return flight.DepartureTimeCasted < flight.ArrivalTimeCasted;
         }
 
         /// <summary>
@@ -59,9 +58,9 @@ namespace FlightData.Services
         /// <param name="previous">The previous flight in sequence.</param>
         /// <param name="current">The current flight.</param>
         /// <returns>True if the current flight departs before the previous one arrives.</returns>
-        private bool IsDeparturedBeforePreviousArrival(Flight? previous, Flight current)
+        private bool IsDeparturedAfterPreviousArrival(Flight? previous, Flight current)
         {
-            return previous != null && previous.ArrivalTimeCasted > current.DepartureTimeCasted;
+            return previous == null || previous.ArrivalTimeCasted < current.DepartureTimeCasted;
         }
 
         /// <summary>
@@ -70,9 +69,9 @@ namespace FlightData.Services
         /// <param name="previous">The previous flight.</param>
         /// <param name="current">The current flight.</param>
         /// <returns>True if the airport locations are inconsistent.</returns>
-        private bool IsLocationInconsistant(Flight? previous, Flight current)
+        private bool IsLocationConsistant(Flight? previous, Flight current)
         {
-            return previous != null && previous.ArrivalAirport == current.DepartureAirport;
+           return previous == null || previous.ArrivalAirport == current.DepartureAirport;
         }
     }
 }

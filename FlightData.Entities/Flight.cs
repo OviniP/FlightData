@@ -11,27 +11,32 @@
         public string? ArrivalAirport { get; set; }
         public string? ArrivalDateTime { get; set; }
 
-        public DateTime? DepartureTimeCasted {
+        private DateTime? _departureTimeCasted;
+        public DateTime? DepartureTimeCasted
+        {
             get
             {
-                if (DateTime.TryParse(DepartureDateTime, out var parsed))
+                if (_departureTimeCasted == null && DateTime.TryParse(DepartureDateTime, out var parsed))
                 {
-                    return parsed;
+                    _departureTimeCasted = parsed;
                 }
-                return null;
+                return _departureTimeCasted;
             }
+            private set => _departureTimeCasted = value;
         }
 
+        private DateTime? _arrivalTimeCasted;
         public DateTime? ArrivalTimeCasted
         {
             get
             {
-                if (DateTime.TryParse(ArrivalDateTime, out var parsed))
+                if (_arrivalTimeCasted == null && DateTime.TryParse(ArrivalDateTime, out var parsed))
                 {
-                    return parsed;
+                    _arrivalTimeCasted = parsed;
                 }
-                return null;
+                return _arrivalTimeCasted;
             }
+            private set => _arrivalTimeCasted = value;
         }
     }
 }
