@@ -42,6 +42,7 @@ namespace FlightData.Services
             return inconsistencies;
         }
 
+        #region Private Methods
         /// <summary>
         /// Checks if a flight arrives before it departs.
         /// </summary>
@@ -73,5 +74,6 @@ namespace FlightData.Services
         {
            return previous == null || previous.ArrivalAirport == current.DepartureAirport;
         }
+        #endregion
     }
 }
